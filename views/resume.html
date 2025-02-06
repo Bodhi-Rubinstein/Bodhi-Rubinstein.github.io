@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Bodhi Rubinstein</title>
+    <link rel="stylesheet" href="../resources/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bodhi Rubinstein</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <i class="bi bi-person-circle" style="font-size: 1.5rem;"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Section -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Resume</h1>
+        <div class="card p-4">
+            <h2>Bodhi Rubinstein</h2>
+            <p>Boulder, Colorado | (720) 442-3219 | bodhir@ucar.edu | <a href="https://www.linkedin.com/in/bodhi-rubinstein-87b93620a/" target="_blank"><i class="bi bi-linkedin"></i></a></p>
+            
+            <h3>Education</h3>
+            <p><strong>Bachelor of Science in Computer Science</strong><br>University of Colorado, Boulder (Expected May 2027)</p>
+            
+            <h3>Technical Expertise</h3>
+            <ul>
+                <li>Linux administration: OpenSUSE, Debian, RHEL, Ubuntu</li>
+                <li>Maintaining HPC and cloud resources: xCAT, PBS, Ansible, Slurm, Foreman, Openstack, Docker, IPMI, NTP, LVM</li>
+                <li>Programming/Scripting: Python, Bash, C++, Web Development, Git</li>
+            </ul>
+            
+            <h3>Related Experience</h3>
+            <h4>Student Assistant III: HPC Research and Development, NSF NCAR (Nov 2023 – Present)</h4>
+            <ul>
+                <li>Developing a testbed cluster for NCAR’s Casper cluster.
+                    <ul>
+                        <li>Racked, cabled, and deployed 15 node R&D cluster from the ground up</li>
+                        <li>In charge of administering the cluster and allocating project resources to internal NCAR users</li>
+                        <li>Experience with xCAT, networking, KVM virtualization, PBS Pro, Ansible, OpenSUSE, NTP, IPMI</li>
+                    </ul>
+
+                </li>
+                <li>Administering and maintaining Chameleon Cloud NSF testbed resource – the Thunder cluster.
+                    <ul>
+                        <li>Using OpenStack inside the CHI-in-a-box implementation to manage the cluster and monitor NSF usage</li>
+                        <li>Working with Chameleon Cloud dev team to coordinate upgrades, maintenance, alerts, and troubleshoot hardware</li>
+                        <li>Monitoring applicable CVE’s to maintain Chameleon Cloud security standards</li>
+                        <li>NCAR’s HPC systems representative for Chameleon Cloud at MERIF 24</li>
+                    </ul>
+
+                </li>
+                <li>Researched password-less SSH using certificates and maintaining internal certificate authority.</li>
+                <li>SC24 Student Volunteer</li>
+            </ul>
+            
+            <h4>RMACC Student Cohort, CU Boulder, NSF Grant #2322260 (Oct 2023 – Present)</h4>
+            <ul>
+                <li>Worked on a student team to create and submit OEM hardware quotes for new nodes on CU’s Alpine cluster.</li>
+                <li>Racked, cataloged, and deployed 16 nodes into production on Alpine as well as decommissioned CU’s old Summit cluster.</li>
+                <li>Learned about Bash scripting, RHEL Linux administration, Slurm, Ansible, Foreman/Hammer, and HPC networking</li>
+            </ul>
+            
+            <h4>Student Research Computing Analyst, CU Boulder Research Computing (March 2023 – Nov 2023)</h4>
+            <ul>
+                <li>Worked with a student development team for NSF ACCESS (Advanced Cyberinfrastructure Coordination Ecosystem:
+                    Services and Support).
+                    <ul>
+                        <li>Developed the ACCESS Resource Advisor (ARA) to help researchers utilize the best resources for their computing
+                            workflows. Learned scrum and CI/CD workflows and project management skills</li>
+                        <li>New user experience tested ACCESS supercomputing resources such as Indiana Jetstream2, Stony Brook Ookami,
+                            and SDSC Expanse</li>
+                    </ul>
+                </li>
+                <li>Automated the CU Research Computing grant reporting system and consultation logging, created training resource for new
+                    users, and analyzed data from the annual user survey</li>
+            </ul>
+
+            <h4>Undergraduate Researcher, CU Boulder, Root Lab (Aug 2022 - Present)</h4>
+            <ul>
+                <li>Working on various computational neuroscience projects including the Slice Histology Alignment, Registration, and Cell Quantification (SHARQ) tool, Brainrender visualizations, and building generalized neuronal learning models with CEBRA</li>
+                <li>Conducting research focused on studying the neuronal subtypes that govern reward seeking, avoidance, addiction, and stress</li>
+            </ul>
+            
+            <h3>Publications</h3>
+            <ul>
+                <li>Dillon J McGovern, Abigail M Polter, Emily D Prévost, Annie Ly, Connor J McNulty, Bodhi Rubinstein, David H Root.Ventral tegmental area glutamate neurons establish a mu-opioid receptor gated circuit to mesolimbic dopamine neurons and regulate opioid-seeking behavior. Journal of Neuropsychopharmacology, Jul 5, 2023.</li>
+                <li>Emily D. PreÃÅvost, Alysabeth Phillips, Kristoffer Lauridsen, Gunnar Enserro, Bodhi Rubinstein, Daniel Alas, Dillon J. McGovern, Annie Ly, Makaila Banks, Connor McNulty, Yoon Seok Kim, Lief E. Fenno, Charu Ramakrishnan, Karl Deisseroth, David H. Root. Monosynaptic inputs to ventral tegmental area glutamate and GABA co-transmitting neurons. BioRxiv Pre-print, April 6, 2023.</li>
+            </ul>
+            <h4>Honors/Awards</h4>
+            <ul>
+                <li>Received the Norlin and Hale Esteemed scholarships at CU Boulder (Aug 2022 – Present)</li>
+                <li>Received the BSI scholarship and UROP grant for neuroscience research at CU Boulder (Oct 2022 – Aug 2024)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center p-3 mt-5">
+        <p>Connect with me:</p>
+        <a href="https://github.com/yourusername" target="_blank">
+            <i class="bi bi-github" style="font-size: 1.5rem;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/bodhi-rubinstein-87b93620a/" target="_blank" class="ms-3">
+            <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
